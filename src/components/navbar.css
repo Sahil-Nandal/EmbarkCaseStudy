@@ -1,0 +1,44 @@
+.navbar{
+    display: flex;
+}
+
+/* From Uiverse.io by kamehame-ha */ 
+.linkBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 15px;
+    margin: 5px;
+    background-color: #34abfa;
+    outline: 3px #34abfa solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    color: black;
+  }
+  
+  .linkBtn .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+  }
+  
+  .linkBtn svg path {
+    transition: 400ms;
+  }
+  
+  .linkBtn:hover {
+    background-color: transparent;
+  }
+  
+  .linkBtn:hover .text {
+    color: #007ACC;
+  }
+  
+  .linkBtn:hover svg path {
+    fill: #007ACC;
+  }
